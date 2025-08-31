@@ -177,3 +177,24 @@ footer {
   color: #fff;
   margin-top: 40px;
 }
+/* Pagination */
+.pagination {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.pagination a {
+  color: #38bdf8;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+.pagination a.active {
+  color: #111;
+  font-weight: bold;
+}
+
+.pagination a:hover {
+  color: #00a1d6;
+}
