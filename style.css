@@ -198,3 +198,62 @@ footer {
 .pagination a:hover {
   color: #00a1d6;
 }
+/* Hero Section for About */
+.hero.about-hero {
+  background: url('images/about-hero.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 120px 20px 80px;
+  text-align: center;
+}
+
+.hero.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero.about-hero p {
+  font-size: 1.3rem;
+}
+
+/* About Content */
+.about-content {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  color: #38bdf8;
+}
+
+.about-content p {
+  line-height: 1.7;
+  margin: 12px 0 24px;
+  color: #111;
+}
+
+.about-content ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+}
+
+.about-content .cta a {
+  margin-top: 20px;
+  background: #38bdf8;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.about-content .cta a:hover {
+  background: #0479d9;
+}
