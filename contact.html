@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact CryptoLoans.in | Get in Touch</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Get in touch with CryptoLoans.in for inquiries, collaboration, or feedback regarding crypto credit and blockchain finance in India.">
+  <meta name="keywords" content="crypto loans India, crypto contact, DeFi support, blockchain finance India, crypto inquiries">
+  <meta name="author" content="cryptoloans.in">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Contact CryptoLoans.in">
+  <meta property="og:description" content="Reach out to CryptoLoans.in for inquiries, partnerships, and support in crypto credit and blockchain finance.">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact CryptoLoans.in">
+  <meta name="twitter:description" content="Contact CryptoLoans.in for assistance with crypto loans and blockchain insights in India.">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo"><a href="index.html">CryptoLoans.in</a></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">&#9776;</div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero contact-hero">
+  <div class="hero-content">
+    <h1>Contact Us</h1>
+    <p>Have questions about crypto credit or want to collaborate? Send us a message!</p>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section class="contact-form-section">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>Fill out the form below, and we will respond as soon as possible.</p>
+
+    <form id="contactForm" action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Additional Info -->
+<section class="contact-info">
+  <div class="container">
+    <h2>Other Ways to Reach Us</h2>
+    <p>Email: <a href="mailto:support@cryptoloans.in">support@cryptoloans.in</a></p>
+    <p>Follow us on social media for latest updates: 
+      <a href="#" target="_blank">Twitter</a> | 
+      <a href="#" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 CryptoLoans.in — Your gateway to crypto credit in India. Powered by Blockchain Insights.</p>
+  <div id="google_translate_element"></div>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- Contact Form Validation -->
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  if(!name || !email || !message) {
+    alert('Please fill in all required fields.');
+    event.preventDefault();
+    return false;
+  }
+
+  // Simple email validation
+  const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+  if(!email.match(emailPattern)) {
+    alert('Please enter a valid email address.');
+    event.preventDefault();
+    return false;
+  }
+
+  return true;
+});
+</script>
+
+</body>
+</html>
