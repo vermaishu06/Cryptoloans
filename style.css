@@ -201,7 +201,7 @@ footer {
 /* Hero Section for About */
 .hero.about-hero {
   background: url('images/about-hero.jpg') center/cover no-repeat;
-  color: #fff;
+  color: #38bdf8;
   padding: 120px 20px 80px;
   text-align: center;
 }
@@ -260,7 +260,7 @@ footer {
 /* Hero Section for Contact */
 .hero.contact-hero {
   background: url('images/contact-hero.jpg') center/cover no-repeat;
-  color: #fff;
+  color: #38bdf8;
   padding: 120px 20px 80px;
   text-align: center;
 }
