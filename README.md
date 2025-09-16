@@ -1,2 +1,2 @@
 # Cryptoloans
-India’s gateway to crypto credit.
+India’s gateway to Crypto Loans.
