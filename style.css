@@ -352,7 +352,7 @@ footer {
 /* ===== Blog Details Common Styles ===== */
 .blog-details1,
 .blog-details2,
-.blog-details3
+.blog-details3,
 .blog-details4{
   max-width: 900px;
   margin: 40px auto;
@@ -365,7 +365,7 @@ footer {
 .blog-details1 h1,
 .blog-details2 h1,
 .blog-details3 h1,
-.blog-details4 h1{
+.blog-details4 h1 {
   font-size: 2.5rem;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -375,7 +375,7 @@ footer {
 .blog-details1 .meta,
 .blog-details2 .meta,
 .blog-details3 .meta,
-.blog-details4 .meta{
+.blog-details4 .meta {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 20px;
@@ -384,7 +384,7 @@ footer {
 .blog-details1 img,
 .blog-details2 img,
 .blog-details3 img,
-.blog-details4 img{
+.blog-details4 img {
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -394,7 +394,7 @@ footer {
 .blog-details1 .content,
 .blog-details2 .content,
 .blog-details3 .content,
-.blog-details4 .content{
+.blog-details4 .content {
   font-size: 1rem;
   color: #333;
   line-height: 1.7;
@@ -403,7 +403,7 @@ footer {
 .blog-details1 .content h2,
 .blog-details2 .content h2,
 .blog-details3 .content h2,
-.blog-details4 .content h2{
+.blog-details4 .content h2 {
   font-size: 1.6rem;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -413,7 +413,7 @@ footer {
 .blog-details1 .content h3,
 .blog-details2 .content h3,
 .blog-details3 .content h3,
-.blog-details4 .content h3{
+.blog-details4 .content h3 {
   font-size: 1.2rem;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -423,14 +423,14 @@ footer {
 .blog-details1 .content p,
 .blog-details2 .content p,
 .blog-details3 .content p,
-.blog-details4 .content p{
+.blog-details4 .content p {
   margin-bottom: 15px;
 }
 
 .blog-details1 .content ul,
 .blog-details2 .content ul,
 .blog-details3 .content ul,
-.blog-details4 .content ul{
+.blog-details4 .content ul {
   padding-left: 20px;
   margin-bottom: 20px;
 }
@@ -438,7 +438,7 @@ footer {
 .blog-details1 .content ul li,
 .blog-details2 .content ul li,
 .blog-details3 .content ul li,
-.blog-details4 .content ul li{
+.blog-details4 .content ul li {
   margin-bottom: 8px;
   color: #444;
 }
@@ -446,7 +446,7 @@ footer {
 .blog-details1 .content a,
 .blog-details2 .content a,
 .blog-details3 .content a,
-.blog-details4 .content a{
+.blog-details4 .content a {
   color: #38bdf8;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -462,7 +462,7 @@ footer {
 .blog-details1 .back-btn,
 .blog-details2 .back-btn,
 .blog-details3 .back-btn,
-.blog-details4 .back-btn{
+.blog-details4 .back-btn {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 20px;
@@ -477,7 +477,7 @@ footer {
 .blog-details1 .back-btn:hover,
 .blog-details2 .back-btn:hover,
 .blog-details3 .back-btn:hover,
-.blog-details4 .back-btn:hover{
+.blog-details4 .back-btn:hover {
   background: #00a1d6;
 }
 
@@ -493,7 +493,7 @@ footer {
   .blog-details1 .content h2,
   .blog-details2 .content h2,
   .blog-details3 .content h2,
-  .blog-details4 .content h2{
+  .blog-details4 .content h2 {
     font-size: 1.4rem;
   }
 }
